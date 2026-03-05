@@ -1,0 +1,44 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-lock.yaml
+package-lock.json
+
+# TypeScript / build
+dist/
+build/
+.turbo/
+*.tsbuildinfo
+
+# Environment
+.env
+.env.*
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+*.swo
+*.swp
+
+# Docker
+docker-compose.override.yml
+.dockerignore
+
+# generated / editor metadata
+coverage/
+.cache/
+*.local
+
+# Generated proto / generated code folders (per-service)
+**/generated/
+
+# Mac / Linux swap
+*~
